@@ -5,7 +5,13 @@ function contar(){
     let i = Number(inicio.value)
     let f = Number(fim.value)
     let p = Number(passo.value)
-    for (let c = i; c != f; c += p) {
-        res.innerHTML += `${c}`
+    if (i == 0 && f == 0) {
+        window.alert('Digite número possíveis de serem contados')
+    } else if (p == 0) {
+        window.alert('Digite um passo válido')
+    } else {
+        for (let c = i; c != f; c += p) {
+            res.innerHTML += `${c}`
+        }
     }
 }
