@@ -3,7 +3,7 @@
     margin: 0px;
 }
 body {
-    background-color: rgb(130, 130, 247);
+    background-color: rgb(97, 97, 236);
 }
 
 header {
@@ -25,6 +25,7 @@ div#box {
     padding: 10px;
     border-radius: 10px;
     width: 40%;
+    box-shadow: 5px 5px 15px black;
 }
 p {
     padding: 10px;
@@ -44,4 +45,6 @@ a {
 a:hover {
     text-decoration: underline;
 }
-a:
+a:visited {
+    color: white;
+}
