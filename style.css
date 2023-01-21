@@ -1,0 +1,47 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    background-color: rgb(130, 130, 247);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+div#box {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 40%;
+}
+p {
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:
